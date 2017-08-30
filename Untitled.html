@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="contact-name" class="sr-only">Name</label>
+            [text* your-name class:form-control class:input-lg id:contact-name placeholder "Your Name"]
+        </div><!-- form-group -->
+    </div><!-- col -->
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="contact-email" class="sr-only">Email</label>
+            [email* your-email class:form-control class:input-lg id:contact-email placeholder "Your Email"]
+        </div><!-- form-group -->
+    </div><!-- col -->
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="contact-phone" class="sr-only">Phone Number</label>
+            [tel your-phone class:form-control class:input-lg id:contact-phone placeholder "Your Phone Number"]
+        </div><!-- form-group -->
+    </div><!-- col -->
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="contact-subject" class="sr-only">Email Subject</label>
+            [text* your-subject class:form-control class:input-lg id:contact-subject placeholder "Your Subject"]
+        </div><!-- form-group -->
+    </div><!-- col -->
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label for="contact-message" class="sr-only">Message</label>
+            [textarea* your-message class:form-control class:input-lg id:contact-message x3 placeholder "Your Message"]
+        </div><!-- form-group -->
+    </div><!-- col -->
+</div><!-- row -->
+
+[submit class:btn class:btn-info class:btn-lg class:pull-right "Submit"]
